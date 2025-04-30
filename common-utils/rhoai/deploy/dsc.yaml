@@ -18,7 +18,7 @@ spec:
         name: knative-serving
     modelregistry:
       registriesNamespace: rhoai-model-registries
-      managementState: Removed
+      managementState: Managed
     trustyai:
       managementState: Managed
     ray:
@@ -30,7 +30,7 @@ spec:
     dashboard:
       managementState: Managed
     modelmeshserving:
-      managementState: Removed
+      managementState: Managed
     datasciencepipelines:
       managementState: Managed
     trainingoperator:
